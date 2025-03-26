@@ -1,0 +1,11 @@
+# terraform.tfvars.example
+
+# Choose the AWS region where you want to deploy your Terraform resources.
+# Make sure the value is case-sensitive and contains no extra spaces.
+# Examples: us-east-1, us-west-2, eu-central-1, ap-southeast-2
+
+region = "us-east-1"
+
+# Version of the ingress-nginx Helm chart to deploy
+# Default is "4.12.0" if not specified
+ingress_nginx_version = "4.12.0"
